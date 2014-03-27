@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <version>2.4.0.2014021201</version>
+    <version>2.5.0.2014030301</version>
     <authors>Remco Software Ltd.</authors>
 	<licenseUrl>http://www.ncrunch.net/legal/eula</licenseUrl>
     <projectUrl>http://www.ncrunch.net/</projectUrl>
