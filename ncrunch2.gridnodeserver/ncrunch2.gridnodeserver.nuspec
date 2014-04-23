@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <version>2.7.0.2014042201</version>
+    <authors>Remco Software Ltd.</authors>
+	<licenseUrl>http://www.ncrunch.net/legal/eula</licenseUrl>
+    <projectUrl>http://www.ncrunch.net/</projectUrl>
+    <iconUrl>http://www.ncrunch.net/Content/Shared/N-logo.png</iconUrl>    
+    <copyright>NCrunch</copyright>    
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>    
+    <releaseNotes>http://www.ncrunch.net/documentation/overview</releaseNotes>
+	<id>ncrunch2.gridnodeserver</id>
+    <title>NCrunch2 Grid Node Server</title>
+    <summary>NCrunch is an automated concurrent testing tool for Visual Studio.  It intelligently runs automated tests so that you don't have to, and gives you a huge amount of useful information about your tested code, such as code coverage and performance metrics, inline in your IDE while you type.</summary>
+    <description>What is this? https://www.ncrunch.net/documentation/guides_distributed-processing NCrunch is an automated concurrent testing tool for Visual Studio .NET 2013.  It intelligently runs automated tests so that you don't have to, and gives you a huge amount of useful information about your tested code, such as code coverage and performance metrics, inline in your IDE while you type.</description>
+    <tags>ncrunch2 vs2013 admin testing automation</tags>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
