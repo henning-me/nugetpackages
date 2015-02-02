@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <version>2.12.0.2015012901</version>
+    <version>2.12.0</version>
     <authors>Remco Software Ltd.</authors>
 	<licenseUrl>http://www.ncrunch.net/legal/eula</licenseUrl>
     <projectUrl>http://www.ncrunch.net/</projectUrl>
-    <iconUrl>http://www.ncrunch.net/Content/Shared/N-logo.png</iconUrl>
+    <iconUrl>https://cdn.rawgit.com/TomOne/various/28ace8fd94797c2707d2a16fa8cd87bd1c8f8ce2/ncrunch.png</iconUrl>
     <copyright>NCrunch</copyright>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>http://www.ncrunch.net/documentation/overview</releaseNotes>
