@@ -1,4 +1,4 @@
-﻿$packageName = 'ncrunch.vs2015'
+﻿$packageName = 'ncrunch-vs2015'
 $url = 'http://downloads.ncrunch.net/NCrunch_VS2015_2.12.0.2.msi'
 
 $installerType = 'msi'
