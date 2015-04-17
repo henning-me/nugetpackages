@@ -1,2 +1,2 @@
-cinst ncrunch2.gridnodeserver -source '%cd%'
+cinst ncrunch2.gridnodeserver -source '%cd%'  -y
 pause

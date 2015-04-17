@@ -1,2 +1,2 @@
-cup ncrunch2.vs2013 -source '%cd%'
+cup ncrunch2.vs2013 -source '%cd%'  -y
 pause
