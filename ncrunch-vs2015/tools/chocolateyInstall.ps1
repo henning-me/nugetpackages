@@ -1,5 +1,5 @@
 ﻿$packageName = 'ncrunch-vs2015'
-$url = 'http://downloads.ncrunch.net/NCrunch_VS2015_2.14.0.8.msi'
+$url = 'http://downloads.ncrunch.net/NCrunch_VS2015_2.15.0.9.msi'
 
 $installerType = 'msi'
 $silentArgs = '/quiet'
