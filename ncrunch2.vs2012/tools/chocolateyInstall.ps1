@@ -1,5 +1,5 @@
 ﻿$packageName = 'ncrunch2.vs2012'
-$url = 'http://downloads.ncrunch.net/NCrunch_VS2012_2.15.0.9.msi'
+$url = 'http://downloads.ncrunch.net/NCrunch_VS2012_2.16.0.13.msi'
 
 $installerType = 'msi'
 $silentArgs = '/quiet'
