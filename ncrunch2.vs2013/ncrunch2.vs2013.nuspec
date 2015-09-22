@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <version>2.16.13.20150921</version>
+    <version>2.16.13.20150922</version>
     <authors>Remco Software Ltd.</authors>
 	<licenseUrl>http://www.ncrunch.net/legal/eula</licenseUrl>
     <projectUrl>http://www.ncrunch.net/</projectUrl>
@@ -19,7 +19,7 @@
     NCrunch is an automated concurrent testing tool for Visual Studio .NET 2013.  It intelligently runs automated tests so that you don't have to, and gives you a huge amount of useful information about your tested code, such as code coverage and performance metrics, inline in your IDE while you type.</description>
     <tags>ncrunch2 vs2013 admin testing automation</tags>
     <dependencies>
-      <dependency id="ncrunch-gridnodeserver" />
+      <dependency id="ncrunch-vs2013" />
     </dependencies>
   </metadata>
 </package>
