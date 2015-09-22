@@ -1,5 +1,5 @@
-﻿$packageName = 'ncrunch2.gridnodeserver'
-$url = 'http://downloads.ncrunch.net/NCrunch_GridNodeServer_2.16.0.13.msi'
+﻿$packageName = '{{PackageName}}'
+$url = '{{DownloadUrl}}'
 
 $installerType = 'msi'
 $silentArgs = '/quiet'
