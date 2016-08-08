@@ -1,5 +1,5 @@
-﻿$packageName = 'ncrunch2.gridnodeserver'
-$url = 'http://downloads.ncrunch.net/NCrunch_GridNodeServer_2.25.0.1.msi'
+﻿$packageName = 'ncrunch-vs2013'
+$url = 'http://downloads.ncrunch.net/NCrunch_VS2013_2.25.0.1.msi'
 
 $installerType = 'msi'
 $silentArgs = '/quiet'

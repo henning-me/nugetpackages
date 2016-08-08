@@ -2,19 +2,19 @@
 del *.nupkg
 cd ncrunch-vs2015
 cpack
-mv *.nupkg ..
+move *.nupkg ..
 cd ..
-cd ncrunch2.gridnodeserver
+cd ncrunch-gridnodeserver
 cpack
-mv *.nupkg ..
+move *.nupkg ..
 cd ..
-cd ncrunch2.vs2012
+cd ncrunch-vs2012
 cpack
-mv *.nupkg ..
+move *.nupkg ..
 cd ..
-cd ncrunch2.vs2013
+cd ncrunch-vs2013
 cpack
-mv *.nupkg ..
+move *.nupkg ..
 cd ..
 @ECHO Now sending?
 @ECHO choco push *.nupkg
