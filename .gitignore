@@ -1,3 +1,4 @@
 *.nupkg
 *.bak
 update_info.xml
+api_key

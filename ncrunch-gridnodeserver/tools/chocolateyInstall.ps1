@@ -1,8 +1,8 @@
 ﻿
 
 $packageName = 'ncrunch-gridnodeserver'
-$url = 'http://downloads.ncrunch.net/NCrunch_GridNodeServer_2.25.0.1.msi'
-$checksum  = '747E55706AA514518DABAA9E027FD17F4CC694B887AE1AB3881D9F4215C2A40A'
+$url = 'http://downloads.ncrunch.net/NCrunch_GridNodeServer_2.26.0.1.msi'
+$checksum  = 'DD7D7C82429A8F7F693EC2CBF86F9432D0A73C19201CA295DC91ED6A9A87C934'
 
 $ErrorActionPreference = 'Stop'
 

@@ -1,8 +1,8 @@
 ﻿
 
 $packageName = 'ncrunch-console'
-$url = 'http://downloads.ncrunch.net/NCrunch_Console_2.25.0.1.msi'
-$checksum  = 'DFD0C3E34D438CA2203713D9FDAAD0AE8BD92C9D87E11D891CE187089965D643'
+$url = 'http://downloads.ncrunch.net/NCrunch_Console_2.26.0.1.msi'
+$checksum  = '3F5606EB6178B21BA1275A85261740E71DD928BC40DBD0047BB6BB484D555853'
 
 $ErrorActionPreference = 'Stop'
 

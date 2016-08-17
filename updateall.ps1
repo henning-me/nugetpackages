@@ -1,4 +1,7 @@
 param($Name = $null)
+
+import-module au
+
 cd $PSScriptRoot
 
 $options = @{
