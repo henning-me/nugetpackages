@@ -1,8 +1,8 @@
 ﻿
 
 $packageName = 'ncrunch-vs2008'
-$url = 'http://downloads.ncrunch.net/NCrunch_VS2008_2.26.0.1.msi'
-$checksum  = '40AFCF5B05DD9B09CCCF38C41FCF472AA5178040A0BFE67EDE510ECF329A440E'
+$url = 'http://downloads.ncrunch.net/NCrunch_VS2008_2.27.0.3.msi'
+$checksum  = 'a0a7bf2785c6245ca2b65a72d66f2b67ed70f0ad96f8bf932a3958eaa7459b00'
 
 $ErrorActionPreference = 'Stop'
 
