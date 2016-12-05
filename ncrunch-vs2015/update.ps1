@@ -16,7 +16,7 @@ function global:au_SearchReplace {
 function global:au_GetLatest {
     $download_page = Invoke-WebRequest -Uri $releases #could use: 'https://api.github.com/repos/dnGrep/dnGrep/releases/latest' | select -expand Content | ConvertFrom-Json | select name, assets_url
     
-    $re1 = 'latest version (\d.\d\d) \('
+    $re1 = 'latest version (\d.\d?) \('
     $latestVersion = $download_page | Select-String -pattern $re1 | %{$_.matches} | %{$_.groups[1].Value}
 
     $detailPage = Invoke-WebRequest -Uri $releases'/download/getMsi?version='$latestVersion'&vs='$vsVersion

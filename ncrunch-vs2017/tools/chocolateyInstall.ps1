@@ -1,8 +1,8 @@
-﻿
+
 
 $packageName = 'ncrunch-vs2017'
-$url = 'http://downloads.ncrunch.net/NCrunch_VS2017_2.27.0.3.msi'
-$checksum  = '9cb53d1c7cb19b85a5b45ad915134a9b8a861868d6fae71be4f5398245ab9dd7'
+$url = 'http://downloads.ncrunch.net/NCrunch_VS2017_3.1.0.1.msi'
+$checksum  = 'b03bc845d41238a35b3bf44cde28b8506271c5ad5f8572afcc234eb939e0fc05'
 
 $ErrorActionPreference = 'Stop'
 
