@@ -1,0 +1,27 @@
+name: CI
+
+on:
+  schedule:
+  - cron: 0 2 * * 1-5
+
+jobs:
+  build:
+
+    runs-on: windows-latest
+    
+    steps:
+    - uses: actions/checkout@master
+    - uses: actions/setup-dotnet@v1
+      with:
+        dotnet-version: '2.2.204' # SDK Version to use.
+    - name: Run a multi-line script
+      run: |
+        choco apikey --key ${{ secrets.CHOCO_API_KEY }} --source https://push.chocolatey.org/
+        cd updater
+        dotnet run
+        
+    - name: Commit changes
+      uses: elstudio/actions-js-build/commit@v2
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        PUSH_BRANCH: 'master'
