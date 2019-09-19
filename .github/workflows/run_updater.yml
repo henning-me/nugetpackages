@@ -17,8 +17,7 @@ jobs:
     - name: Run a multi-line script
       run: |
         choco apikey --key ${{ secrets.CHOCO_API_KEY }} --source https://push.chocolatey.org/
-        cd updater
-        dotnet run
+        dotnet run --project .\updater\updater.csproj        
         
     - name: Commit changes
       uses: elstudio/actions-js-build/commit@v2
