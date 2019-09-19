@@ -24,7 +24,7 @@ jobs:
         git switch -c master
         choco apikey --key ${{ secrets.CHOCO_API_KEY }} --source https://push.chocolatey.org/
         dir
-        dotnet run --project ${{ GITHUB_WORKSPACE }}\updater\updater.csproj        
+        dotnet run --project updater/updater.csproj        
         
     - name: Commit changes
       uses: elstudio/actions-js-build/commit@v2
