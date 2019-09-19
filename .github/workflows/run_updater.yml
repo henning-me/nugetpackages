@@ -1,6 +1,11 @@
 name: CI
 
 on:
+  push:
+    branches:
+    - master
+    paths:
+    - '.github/workflows/*'
   schedule:
   - cron: 13 * * * 1-5
 
