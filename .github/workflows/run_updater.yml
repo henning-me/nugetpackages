@@ -2,7 +2,7 @@ name: CI
 
 on:
   schedule:
-  - cron: 20 * * * 1-5
+  - cron: 28 * * * 1-5
 
 jobs:
   build:
@@ -16,8 +16,10 @@ jobs:
         dotnet-version: '2.2.204' # SDK Version to use.
     - name: Run a multi-line script
       run: |
+        git switch -c master
         choco apikey --key ${{ secrets.CHOCO_API_KEY }} --source https://push.chocolatey.org/
-        dotnet run --project .\updater\updater.csproj        
+        dir
+        dotnet run --project ${{ $GITHUB_WORKSPACE }}\updater\updater.csproj        
         
     - name: Commit changes
       uses: elstudio/actions-js-build/commit@v2
